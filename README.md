@@ -14,7 +14,7 @@ express骨架生成器
 1. 首先确认本机已经正确安装了[mongodb](https://www.mongodb.com/)。
 2. 打开项目`/config/config.js`目录下文件，文件中development下的db路径，例：`mongodb://test:123@localhost:27017/project-development`,其中`project-development`为数据库名称，`test`为数据库用户名，`123`为数据库的密码。
 3. 在本地创建`project-development`数据库。
-4. 为`project-development`库添加用户，账号为：`test` 密码：'123'。
+4. 为`project-development`库添加用户，账号为：`test` 密码：`123`。
 
 注：数据库名称和用户账号密码可以自行定义，只要config.js里的名称和用户能对应到mongodb中即可。
 
