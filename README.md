@@ -1,8 +1,8 @@
 # generator-mongodb-express-template
-express框架生成器
+express骨架生成器
 
 ## 项目
-项目为[express](http://expressjs.com/) + [mongodb](https://www.mongodb.com/) 框架的生成器，利用[Yeoman](http://yeoman.io/)开发而成。新构建项目中包含[mongoose](http://mongoosejs.com/)、[jade](http://jade-lang.com/)、[stylus](http://stylus-lang.com/)、[gulp](http://gulpjs.com/)等常用技术。
+[express](http://expressjs.com/) + [mongodb](https://www.mongodb.com/) 的项目骨架生成器，利用[Yeoman](http://yeoman.io/)开发而成。新构建项目中包含[mongoose](http://mongoosejs.com/)、[jade](http://jade-lang.com/)、[stylus](http://stylus-lang.com/)、[gulp](http://gulpjs.com/)等常用技术。
 
 ## 使用与安装
 1. 安装[yo](http://yeoman.io/)，`npm install -g yo`。
