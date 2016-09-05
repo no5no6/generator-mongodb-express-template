@@ -6,7 +6,7 @@ express骨架生成器
 
 ## 使用与安装
 1. 安装[yo](http://yeoman.io/)，`npm install -g yo`。
-2. 运行 `npm install -g generator-mongodb-express-template` 把生成器安装到全局。
+2. 运行 `sudo npm install -g generator-mongodb-express-template` 把生成器安装到全局。
 3. 运行`yo mongodb-express-template` 生成项目。
 4. 运行`gulp`命令启动项目，访问`localhost:3000`即可。
 
