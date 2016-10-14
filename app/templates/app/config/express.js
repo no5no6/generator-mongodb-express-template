@@ -26,6 +26,10 @@ module.exports = function(app, config) {
   app.use(compress());
   app.use(express.static(config.root + '/public'));
   app.use(methodOverride());
+  
+  app.get('/', function (req, res, next) {
+    res.render('index', {title: 'Generator-Express MVC'});
+  });
 
   app.use(function(req, res, next){
     res.header('Access-Control-Allow-Origin', 'http://localhost:8080');
